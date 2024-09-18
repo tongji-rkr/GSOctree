@@ -1,0 +1,5 @@
+2024-08-02 14:29:58,752 - INFO: Optimizing outputs/mipnerf360/bicycle/baseline/2024-08-02_14:29:01
+Traceback (most recent call last):
+  File "train.py", line 352, in <module>
+    training(lp.extract(args), op.extract(args), pp.extract(args), dataset,  args.test_iterations, args.save_iterations, args.checkpoint_iterations, args.start_checkpoint, args.debug_from, wandb, logger)
+TypeError: training() takes 8 positional arguments but 11 were given

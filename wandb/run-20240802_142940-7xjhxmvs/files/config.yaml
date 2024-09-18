@@ -1,0 +1,212 @@
+wandb_version: 1
+
+sh_degree:
+  desc: null
+  value: 3
+fork:
+  desc: null
+  value: 2
+source_path:
+  desc: null
+  value: /nas/shared/pjlab-lingjun-landmarks/renkerui/data/mipnerf360/bicycle
+model_path:
+  desc: null
+  value: outputs/mipnerf360/bicycle/baseline/2024-08-02_14:29:01
+images:
+  desc: null
+  value: images
+resolution:
+  desc: null
+  value: -1
+white_background:
+  desc: null
+  value: false
+random_background:
+  desc: null
+  value: false
+resolution_scales:
+  desc: null
+  value:
+  - 1.0
+data_device:
+  desc: null
+  value: cuda
+eval:
+  desc: null
+  value: true
+ratio:
+  desc: null
+  value: 1
+extend:
+  desc: null
+  value: 1.1
+dist2level:
+  desc: null
+  value: round
+base_layer:
+  desc: null
+  value: -1
+visible_threshold:
+  desc: null
+  value: 0.7
+update_ratio:
+  desc: null
+  value: 0.2
+progressive:
+  desc: null
+  value: true
+dist_ratio:
+  desc: null
+  value: 0.999
+levels:
+  desc: null
+  value: -1
+init_level:
+  desc: null
+  value: -1
+extra_ratio:
+  desc: null
+  value: 0.25
+extra_up:
+  desc: null
+  value: 0.01
+iterations:
+  desc: null
+  value: 40000
+position_lr_init:
+  desc: null
+  value: 0.00016
+position_lr_final:
+  desc: null
+  value: 1.6e-06
+position_lr_delay_mult:
+  desc: null
+  value: 0.01
+position_lr_max_steps:
+  desc: null
+  value: 40000
+feature_lr:
+  desc: null
+  value: 0.0025
+opacity_lr:
+  desc: null
+  value: 0.05
+scaling_lr:
+  desc: null
+  value: 0.005
+rotation_lr:
+  desc: null
+  value: 0.001
+percent_dense:
+  desc: null
+  value: 0.01
+lambda_dssim:
+  desc: null
+  value: 0.2
+start_stat:
+  desc: null
+  value: 500
+update_from:
+  desc: null
+  value: 1500
+coarse_iter:
+  desc: null
+  value: 10000
+coarse_factor:
+  desc: null
+  value: 1.5
+update_interval:
+  desc: null
+  value: 100
+update_until:
+  desc: null
+  value: 25000
+min_opacity:
+  desc: null
+  value: 0.005
+success_threshold:
+  desc: null
+  value: 0.8
+densify_grad_threshold:
+  desc: null
+  value: 0.0002
+convert_SHs_python:
+  desc: null
+  value: false
+compute_cov3D_python:
+  desc: null
+  value: false
+debug:
+  desc: null
+  value: false
+ip:
+  desc: null
+  value: 127.0.0.1
+port:
+  desc: null
+  value: 25953
+debug_from:
+  desc: null
+  value: -1
+detect_anomaly:
+  desc: null
+  value: false
+warmup:
+  desc: null
+  value: false
+use_wandb:
+  desc: null
+  value: true
+test_iterations:
+  desc: null
+  value:
+  - 7000
+  - 30000
+  - 40000
+save_iterations:
+  desc: null
+  value:
+  - 7000
+  - 30000
+  - 40000
+quiet:
+  desc: null
+  value: false
+checkpoint_iterations:
+  desc: null
+  value: []
+start_checkpoint:
+  desc: null
+  value: null
+gpu:
+  desc: null
+  value: '-1'
+_wandb:
+  desc: null
+  value:
+    python_version: 3.7.13
+    cli_version: 0.16.1
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1722580180.854429
+    t:
+      1:
+      - 1
+      - 41
+      - 55
+      - 105
+      2:
+      - 1
+      - 41
+      - 55
+      - 105
+      3:
+      - 13
+      - 16
+      - 23
+      4: 3.7.13
+      5: 0.16.1
+      8:
+      - 6
+      13: linux-x86_64
